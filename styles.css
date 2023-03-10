@@ -1,0 +1,56 @@
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.container {
+  width: 31rem;
+  margin: 0 auto;
+}
+
+.selections {
+  border: 1px solid black;
+  display: inline-block;
+  height: 10rem;
+  width: 10rem;
+}
+
+p {
+  text-align: center;
+
+}
+
+.btn {
+  margin-top: 8rem;
+  margin-left: 3rem;
+}
+
+/* Style Rules for scorecard*/
+.scorecard {
+  width: 20.5rem;
+  height: 6rem;
+  margin: 5rem auto;
+  border: 1px solid purple;
+}
+
+.score {
+  border: 1px solid black;
+  display: inline-block;
+  height: 3rem;
+  width: 10rem;
+  text-align: center;
+  font-size: 35px;
+}
+
+.playerName {
+  margin: 0;
+  margin-left: 4rem;
+}
+
+.cpuName {
+  margin-top: -1rem;
+  margin-right: 4rem;
+  text-align: right;
+}
