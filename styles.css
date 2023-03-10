@@ -1,0 +1,38 @@
+
+#selects {
+  margin: 0 auto;
+}
+
+#selections {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.choice {
+  height: 200px;
+  width: 200px;
+  padding: 0px 150px 0px 30px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.choice:hover {
+  transform: scale(1.1);
+}
+
+.choice img {
+  height: 200px;
+  width: 200px;
+}
+
+.choice p {
+  text-align: center;
+}
+
